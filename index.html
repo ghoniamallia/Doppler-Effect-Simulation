@@ -162,12 +162,12 @@
     <h2 style="font-size: 18px; color: #444; margin-top: 10px;">Disclaimers: </h2>
     <div style="margin-bottom: 30px;">
       <ol style="padding-left: 20px; font-weight: 600; color: #333;">
-        <li>Simulasi ini hanya berfokus pada visualisasi konsep sehingga skala posisi dan jarak dalam simulasi ini tidak merepresentasikan skala fisik sebenarnya (arbitrer).</li>
-        <li>Visualisasi dalam simulasi ini merupakan sudut pandang orang ketiga (orang yang berada di luar kejadian). Namun, audio frekuensi yang muncul merupakan sudut pandang pendengar/pengamat.</li>
-        <li>Frekuensi audio yang muncul dan tercantum pada simulasi ini sudah sesuai dengan perhitungan rumus Efek Doppler (sudah divalidasi menggunakan aplikasi Phyphox).</li>
-        <li>Batas bawah frekuensi dalam simulasi ini adalah 100 Hz, dengan alasan frekuensi yang lebih rendah akan terdengar kurang optimal pada pendengaran manusia.</li>
-        <li>Batas atas frekuensi dalam simulasi ini adalah 400 Hz, dengan alasan menjaga kenyamanan pengguna (frekuensi yang terlalu tinggi dapat menyebabkan ketidaknyamanan).</li>
-        <li>Untuk pengalaman terbaik, sangat disarankan menjalankan simulasi ini menggunakan laptop atau perangkat dengan resolusi layar minimal 1280×720 piksel (penggunaan perangkat dengan layar kecil dapat menyebabkan tampilan simulasi terpotong atau tidak maksimal).</li>
+        <li>This simulation focuses solely on concept visualization, so the positions and distances are not to scale and do not represent actual physical scales (arbitrary).</li>
+        <li>The visualization in this simulation is from a third-person perspective (an outside observer). However, the audio frequency presented corresponds to the observer’s perspective.</li>
+        <li>The audio frequencies presented and displayed in this simulation are calculated according to the Doppler Effect equation and have been validated using the Phyphox app.</li>
+        <li>The lower frequency limit in this simulation is 100 Hz, because lower frequencies may be less perceptible to the human ear.</li>
+        <li>The upper frequency limit in this simulation is 400 Hz, to ensure user comfort (frequencies that are too high may cause discomfort).</li>
+        <li>For the best experience, it is highly recommended to run this simulation on a laptop or device with a minimum screen resolution of 1280×720 pixels (using devices with smaller screens may cause parts of the simulation to be cut off or displayed improperly).</li>
       </ol>
     </div>
 
@@ -185,7 +185,7 @@
           transition: background-color 0.3s;"
         onmouseover="this.style.backgroundColor='#5a6268'"
         onmouseout="this.style.backgroundColor='#6c757d'">
-        Petunjuk
+        User Guide
       </button>
 
       <button id="startButton"
@@ -201,64 +201,64 @@
           transition: background-color 0.3s;"
         onmouseover="this.style.backgroundColor='#005fa3'"
         onmouseout="this.style.backgroundColor='#007acc'">
-        Mulai Simulasi
+        Start Simulation
       </button>
     </div>
   </div>
 
   <div id="guidePage" style="display: none; max-width: 850px; margin: 60px auto; padding: 40px; text-align: left; background-color: white; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.05);">
-    <h1 style="font-size: 32px; color: #444; text-align: center;">Petunjuk Simulasi Efek Doppler</h1>
+    <h1 style="font-size: 32px; color: #444; text-align: center;">Doppler Effect Simulation Guide</h1>
     <ol style="padding-left: 20px; font-weight: 600; color: #333; list-style-position: outside;">
       <li style="margin-bottom: 24px;">
         <div>
-          Sebelum memulai simulasi, pilihlah kondisi sumber dan pengamat dengan cara klik dropdown, lalu klik kondisi yang diinginkan (diam/mendekat/menjauh).<br />
+          Before starting the simulation, select the conditions of the source and the observer by clicking the dropdown menu, then choose the desired condition (stationary/moving towards/moving away).<br />
           <img src="step1.png" alt="Dropdown sumber/pendengar" style="max-width: 300px; border-radius: 8px; margin-top: 8px;" />
         </div>
       </li>
 
       <li style="margin-bottom: 24px;">
         <div>
-          Atur kecepatan sumber/pendengar dengan cara menggeser slider ke kiri atau ke kanan (slider kecepatan akan otomatis nonaktif saat dalam kondisi diam).<br />
+          Set the source/observer velocity by sliding the velocity slider left or right (the velocity slider will automatically be disabled when source/observer set to stationary).<br />
           <img src="step2.png" alt="Slider Kecepatan" style="max-width: 300px; border-radius: 8px; margin-top: 8px;" />
         </div>
       </li>
 
       <li style="margin-bottom: 24px;">
         <div>
-          Atur frekuensi sumber dengan cara menggeser slider ke kiri atau ke kanan.<br />
+          Set the source frequency by sliding the frequency slider left or right<br />
           <img src="step3.png" alt="Slider frekuensi" style="max-width: 300px; border-radius: 8px; margin-top: 8px;" />
         </div>
       </li>
 
       <li style="margin-bottom: 24px;">
         <div>
-          Tekan tombol ▶ (play) untuk memulai simulasi. Visualisasi gelombang dan audio frekuensi akan muncul.<br />
+          Press the ▶ (play) button to start the simulation. The wave visualization and audio frequency will appear.<br />
           <img src="step4.png" alt="Tombol play" style="max-width: 300px; border-radius: 8px; margin-top: 8px;" />
         </div>
       </li>
 
       <li style="margin-bottom: 24px;">
         <div>
-          Tekan tombol ⏸ (pause) untuk menjeda simulasi. Gerakan sumber, pengamat, dan gelombang akan terjeda, dan audio pun akan mati.<br />
+          Press the ⏸ (pause) button to pause the simulation. The movements of the source, observer, and waves will be paused, and the audio will be muted.<br />
           <img src="step5.png" alt="Tombol pause" style="max-width: 300px; border-radius: 8px; margin-top: 8px;" />
         </div>
       </li>
 
       <li style="margin-bottom: 16px;">
         <div>
-          Tekan tombol 🔇/🔊 untuk mematikan/menghidupkan audio.
+          Press the 🔇/🔊 button to mute/unmute the audio.
         </div>
       </li>
 
       <li style="margin-bottom: 16px;">
         <div>
-          Tekan tombol ⏹ (stop) untuk menghentikan simulasi (sumber dan pengamat kembali ke posisi awal, tapi nilai kecepatan dan frekuensi tidak berubah).
+          Press the ⏹ (stop) button to stop the simulation (the source and observer will return to their initial positions, but the velocity and frequency values will remain unchanged)
         </div>
       </li>
 
       <li style="margin-bottom: 16px;">
         <div>
-          Tekan tombol ↻ (reset) untuk mengembalikan simulasi ke kondisi awal seluruhnya.
+          Press the ↻ (reset) button to completely reset the simulation.
         </div>
       </li>
     </ol>
@@ -268,14 +268,14 @@
         style="padding: 10px 24px; margin: 8px; font-size: 16px; background-color: #6c757d; color: white; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s;"
         onmouseover="this.style.backgroundColor='#5a6268'"
         onmouseout="this.style.backgroundColor='#6c757d'">
-        Kembali
+        Back
       </button>
 
       <button id="startFromGuideButton"
         style="padding: 10px 24px; margin: 8px; font-size: 16px; background-color: #007acc; color: white; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s;"
         onmouseover="this.style.backgroundColor='#005fa3'"
         onmouseout="this.style.backgroundColor='#007acc'">
-        Mulai Simulasi
+        Start Simulation
       </button>
     </div>
   </div>
@@ -801,6 +801,7 @@
   </script>
 </body>
 </html>
+
 
 
 
